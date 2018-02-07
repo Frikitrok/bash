@@ -1,4 +1,4 @@
-udo add-apt-repository ppa:webupd8team/java!/bin/bash
+#!/bin/bash
 set +x
 sudo apt update
 sudo apt install -y lsb-core
