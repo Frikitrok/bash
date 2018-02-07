@@ -21,6 +21,6 @@ wget https://releases.hashicorp.com/vagrant/2.0.2/vagrant_2.0.2_x86_64.deb
 sudo dpkg -i vagrant_2.0.2_x86_64.deb
 rm vagrant_2.0.2_x86_64.deb
 #install docker
-sudo apt install docker.io
+sudo apt install -y docker.io
 sudo apt update
 
